@@ -21,6 +21,6 @@ class JungleAnimal():
             raise InvalidParameterError(age)
         if (type(self.sound) != str):
             raise InvalidParameterError(sound)
-    def make_sound(self):
-        print(self.name+" says "+self.sound)
+    
+        
     
